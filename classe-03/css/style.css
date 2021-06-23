@@ -1,0 +1,74 @@
+/*Elementos html*/
+
+body {
+	margin: 0px;
+	background: #EFF5FF;
+}
+
+h1 {
+	font-family: Merriweather;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 28px;
+	margin-bottom: 20px;
+}
+
+span {
+	font-family: Lato;
+	line-height: 26px;
+	color: #494949;
+}
+
+a {
+	text-decoration: none;
+}
+/*Classes*/
+
+.post {
+	box-sizing: border-box;
+	background: #FFFFFF;
+	max-width: 536px;
+	height: auto;
+	margin: 20px auto;
+	padding: 75px 70px 50px 70px;
+
+	box-shadow: 0px 44px 54px -30px rgba(171, 200, 250, 0.38);
+	border-radius: 15px;
+}
+
+.categorias {
+	font-family: Lato;
+	font-size: 16px;
+	margin-top: 51px;
+	margin-bottom: 35px;
+}
+
+.categorias a {
+	margin: 10px 10px 10px 0px;
+	padding: 9px 20px;
+	background: #EFF5FF;
+	border-radius: 45px;
+	color: #2E29FF;
+	display: inline-block;
+}
+
+.post p {
+	font-family: Lato;
+	font-size: 16px;
+	line-height: 26px;
+	color: #000000;
+}
+
+.categorias p {
+	line-height: 26px;
+	color: #494949;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.btn {
+	background: #000000;
+	border-radius: 10px;
+	color: #FFFFFF;
+	padding: 11px 32px;
+}
